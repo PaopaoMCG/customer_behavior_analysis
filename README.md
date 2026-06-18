@@ -99,5 +99,27 @@ El dashboard final se creó en Tableau para ofrecer una visión interactiva de l
 - Los clientes jóvenes adultos generaron la mayor contribución a los ingresos.
 - Los ingresos se distribuyeron de forma relativamente equilibrada entre los distintos grupos de edad, lo que sugiere la existencia de múltiples segmentos de clientes valiosos.
 
-## Estructura del proyecto
-customer-shopping-analysis/ │ ├── data/ │ └── customer_shopping_behavior.csv │ ├── notebooks/ │ └── customer_analysis.ipynb │ ├── sql/ │ └── business_queries.sql │ ├── dashboard/ │ └── tableau_dashboard.png │ ├── reports/ │ └── business_report.pdf │ └── README.md
+## Cómo ejecutar este proyecto
+### 1. Clona el repositorio
+git clone <repository-url>
+cd customer-shopping-analysis
+
+### 2. Instala las dependencias
+pip install pandas numpy matplotlib sqlalchemy psycopg2-binary
+
+### 3. Abre el notebook
+Abre Jupyter Notebook o Visual Studio Code y ejecuta:
+
+notebooks/customer_analysis.ipynb
+
+### 4. Configuración de PostgreSQL
+Crea una base de datos PostgreSQL y actualiza las credenciales de conexión dentro del cuaderno:
+
+engine = create_engine(
+    «postgresql+psycopg2://username:password@localhost:5435/customer_behavior»
+)
+
+### 5. Ejecuta el análisis SQL
+Ejecuta las consultas SQL almacenadas en:
+
+sql/business_queries.sql
