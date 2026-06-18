@@ -10,6 +10,7 @@ El proyecto sigue un flujo de trabajo analítico completo, desde la preparación
 El conjunto de datos contiene información demográfica de los clientes, su comportamiento de compra, sus preferencias de productos y los detalles de las transacciones.
 
 ## Herramientas y tecnologías
+
 - Python
     - Pandas
     - NumPy
@@ -69,13 +70,23 @@ Se respondieron preguntas de negocio mediante consultas SQL, entre las que se in
 El dashboard final se creó en Tableau para ofrecer una visión interactiva de las métricas empresariales clave y del comportamiento de los clientes.
 
 ## Dashboard
+
+![Dashboard](https://github.com/PaopaoMCG/customer_behavior_analysis/blob/92195021519660799479aa2823135e951661fffb/Dashboard%201.png)
+
+### Versión interactiva
+
+Tableau Public: 
+https://public.tableau.com/views/customer_behavior_17806942153590/Dashboard1?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link
+
 ### Indicadores clave de rendimiento (KPI)
+
 - Total de clientes
 - Ingresos totales
 - Importe medio de compra
 - Puntuación media de las reseñas
 
 ### Visualizaciones
+
 - Distribución de las suscripciones de los clientes
 - Ingresos por categoría de producto
 - Ventas por categoría de producto
@@ -84,18 +95,22 @@ El dashboard final se creó en Tableau para ofrecer una visión interactiva de l
 
 ## Conclusiones principales
 ### Segmentación de clientes
+
 - Los clientes masculinos generaron más del doble de ingresos que las clientas.
 - Los clientes fieles representaron el segmento de clientes más numeroso.
 
 ### Programa de suscripción
+
 - Los suscriptores no gastaron significativamente más que los no suscriptores.
 - La mayoría de los compradores habituales no estaban inscritos en el programa de suscripción, lo que indica una oportunidad para mejorar la adopción de la suscripción.
 
 ### Rendimiento de los productos
+
 - Los guantes, las sandalias y las botas recibieron las puntuaciones medias más altas en las reseñas.
 - El volumen de compras y las valoraciones de los clientes no siempre coincidían, lo que pone de relieve la importancia de evaluar múltiples métricas de rendimiento.
 
 ### Factores que impulsan los ingresos
+
 - Los clientes jóvenes adultos generaron la mayor contribución a los ingresos.
 - Los ingresos se distribuyeron de forma relativamente equilibrada entre los distintos grupos de edad, lo que sugiere la existencia de múltiples segmentos de clientes valiosos.
 
